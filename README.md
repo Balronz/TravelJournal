@@ -1,16 +1,42 @@
-# React + Vite
+# My Travel Journal App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays a collection of travel entries, showcasing places I've visited. Each entry includes an image, location details, dates, and a brief description.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   [Features](#features)
+*   [Technologies Used](#technologies-used)
+*   [Project Structure](#project-structure)
+*   [Data](#data)
+*   [Installation](#installation)
+*   [Usage](#usage)
+*   [Screenshots](#screenshots)
+*   [Contributing](#contributing)
+*   [License](#license)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Display Travel Entries**: Presents a list of travel destinations with relevant information.
+*   **Detailed Information**: Each entry includes:
+    *   An image of the location.
+    *   The title of the place (e.g., "Mount Fuji").
+    *   The country where it's located.
+    *   A direct link to Google Maps for easy navigation.
+    *   The dates of the visit.
+    *   A short descriptive text about the location.
+*   **Responsive Design**: (Assumed, but good to mention if applicable) The application should be viewable on various screen sizes.
+*   **Header**: A consistent header with a "My Travel Journal" title and a globe icon.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **React**: A JavaScript library for building user interfaces.
+*   **JavaScript**: The core programming language of the application.
+*   **HTML**: For structuring the content.
+*   **CSS**: For styling the application.
+*   **Vite**: A fast build tool for modern web projects.
+*   **ESLint**: For maintaining code quality and consistency.
+
+## Project Structure
+
+The main components and data are organized as follows:
+
